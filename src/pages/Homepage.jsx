@@ -76,12 +76,7 @@ const Homepage = () => {
          <img src="https://i.pinimg.com/736x/77/34/73/773473a9bf5abf235010141fee44107d.jpg" alt="" className="mx-auto h-20"/>
          <p className="text-lg mt-2 text-white">FLutter</p>
         </div>
-        <div className="p-4 rounded-lg transition-transform hover:scale-105 duration-300"> 
-         <img src="https://i.pinimg.com/736x/77/34/73/773473a9bf5abf235010141fee44107d.jpg" alt="" className="mx-auto h-20"/>
-         <p className="text-lg mt-2 text-white">FLutter</p>
-        </div>
-
-        
+       
        </div>
      
       {/* certificate */}
