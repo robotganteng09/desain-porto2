@@ -9,5 +9,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
-  base: '/desain-porto/',
+  base: '/desain-porto2/',
 })
