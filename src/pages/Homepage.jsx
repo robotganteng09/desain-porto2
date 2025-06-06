@@ -2,7 +2,7 @@ import foto from "../assets/image/foto.png"
 import java from "../assets/image/java.png"
 import bootstrap from "../assets/image/bootstrap.png"
  import react from "../assets/image/react.png"
- import tailwind from "../assets/image/tailwind.png"
+
 
  
 
@@ -65,10 +65,7 @@ const Homepage = () => {
          <p class="text-lg mt-2 text-white">React.js</p>
         </div>
 
-        <div className="p-4 rounded-lg transition-transform hover:scale-105 duration-300"> 
-         <img src={tailwind} alt="" className="mx-auto h-20"/>
-         <p className="text-lg mt-2 text-white">Tailwind </p>
-        </div>
+        
 
         <div className="p-4 rounded-lg transition-transform hover:scale-105 duration-300"> 
          <img src={bootstrap} alt="" className="mx-auto h-20"/>
@@ -79,6 +76,8 @@ const Homepage = () => {
          <img src="https://i.pinimg.com/736x/77/34/73/773473a9bf5abf235010141fee44107d.jpg" alt="" className="mx-auto h-20"/>
          <p className="text-lg mt-2 text-white">FLutter</p>
         </div>
+
+        
        </div>
      
       {/* certificate */}
