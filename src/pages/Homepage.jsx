@@ -44,7 +44,7 @@ const Homepage = () => {
 
   <div className="bg-gray-800 p-6 rounded-2xl shadow-lg w-full max-w-lg transition-transform hover:scale-105 duration-300 mt-5">
        <h3 className="text-xl font-bold text-white">2024 - Current</h3>
-        <h2 className="text-xl font-bold text-[#F1EFEC]">SD 2 Demaan</h2>
+        <h2 className="text-xl font-bold text-[#F1EFEC]">SMK Raden Umar Said</h2>
         <h3 className="text-xl text-[#FFF8F8]">Learn About Programming</h3>
     </div>
   </div>
@@ -70,9 +70,14 @@ const Homepage = () => {
          <p className="text-lg mt-2 text-white">Tailwind </p>
         </div>
 
-        <div className="p-4 rounded-lg"> 
+        <div className="p-4 rounded-lg transition-transform hover:scale-105 duration-300"> 
          <img src={bootstrap} alt="" className="mx-auto h-20"/>
          <p className="text-lg mt-2 text-white">Bootstrap </p>
+        </div>
+
+        <div className="p-4 rounded-lg transition-transform hover:scale-105 duration-300"> 
+         <img src="https://i.pinimg.com/736x/77/34/73/773473a9bf5abf235010141fee44107d.jpg" alt="" className="mx-auto h-20"/>
+         <p className="text-lg mt-2 text-white">FLutter</p>
         </div>
        </div>
      
