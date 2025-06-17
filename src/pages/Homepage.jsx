@@ -84,7 +84,7 @@ const Homepage = () => {
       {/* certificate */}
        <div className="certificate py-19" id="certificate" >
         <h1 className="text-4xl font-bold text-center mb-6 text-[#D1F8EF]">Certificate</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-10 px-4 mt-20 ml-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10 px-6 mt-16">
           
         <div className="bg-gray-800 p-4 rounded-xl shadow-lg hover:scale-105 duration-300">
         <img src={edubby} alt="" className="" />
