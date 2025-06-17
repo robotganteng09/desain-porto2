@@ -93,7 +93,7 @@ const Homepage = () => {
 
         <div className="bg-gray-800 p-4 rounded-xl shadow-lg hover:scale-105 duration-300">
         <img src={dicoding} alt="" className="" />
-        <p className="mt-2 text-2xl text-white text-center font-semibold" >Certificate Front End Web</p>
+        <p className="mt-2 text-2xl text-white text-center font-semibold" >Certificate JavaScript</p>
         </div>
         </div>
        </div>
