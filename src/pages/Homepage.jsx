@@ -2,7 +2,9 @@ import foto from "../assets/image/foto.png"
 import java from "../assets/image/java.png"
 import bootstrap from "../assets/image/bootstrap.png"
  import react from "../assets/image/react.png"
-
+ import edubby from "../assets/image/edubby.jpg"
+//  import tulalit from "../assets/image/tulalit.jpg"
+ import dicoding from "../assets/image/dicoding.jpg"
 
  
 
@@ -22,7 +24,7 @@ const Homepage = () => {
           </div>
          
          {/* education */}
-    <div className="mt-24 px-4" id="education"> 
+    <div className="education mt-24 px-4" id="education"> 
       <p className="education text-center font-bold text-xl sm:text-2xl md:text-3xl text-[#D1F8EF] mt-110">
         Education Background
       </p>
@@ -51,7 +53,7 @@ const Homepage = () => {
 
 
        {/* tech stack */}
-       <div className="container mx-auto text-center py-10 mt-29 ">
+       <div className=" mx-auto text-center py-10 mt-29 " id="tech-stack">
        <h1 className="text-4xl font-bold mb-6 text-[#D1F8EF]">Skill</h1>
        <div className="grid grid-cols-3 gap-0">
         <div className="p-4 rounded-lg  transition-transform hover:scale-105 duration-300 "> 
@@ -80,9 +82,19 @@ const Homepage = () => {
        </div>
      
       {/* certificate */}
-       <div>
-        <div>
+       <div className="certificate py-19" id="certificate" >
+        <h1 className="text-4xl font-bold text-center mb-6 text-[#D1F8EF]">Certificate</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-10 px-4 mt-20 ml-10">
           
+        <div className="bg-gray-800 p-4 rounded-xl shadow-lg hover:scale-105 duration-300">
+        <img src={edubby} alt="" className="" />
+        <p className="mt-2 text-2xl text-white text-center font-semibold" >Certificate Front End Web</p>
+        </div>
+
+        <div className="bg-gray-800 p-4 rounded-xl shadow-lg hover:scale-105 duration-300">
+        <img src={dicoding} alt="" className="" />
+        <p className="mt-2 text-2xl text-white text-center font-semibold" >Certificate Front End Web</p>
+        </div>
         </div>
        </div>
 

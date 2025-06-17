@@ -43,10 +43,10 @@ const Navbar = () => {
             `}
             onClick={() => setShow(false)}
           >
-            <li><a href="#" className="hover:text-blue-500">Biodata</a></li>
-            <li><a href="#" className="hover:text-blue-500">Pendidikan</a></li>
-            <li><a href="#" className="hover:text-blue-500">Keahlian</a></li>
-            <li><a href="#" className="hover:text-blue-500">Sertifikat</a></li>
+            <li><a href="#biodata" className="hover:text-blue-500">Biodata</a></li>
+            <li><a href="#education" className="hover:text-blue-500">Pendidikan</a></li>
+            <li><a href="#tech-stack" className="hover:text-blue-500">Keahlian</a></li>
+            <li><a href="#certificate" className="hover:text-blue-500">Sertifikat</a></li>
           </ul>
 
           {/* Contact & Toggle */}
